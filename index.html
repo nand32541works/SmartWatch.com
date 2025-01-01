@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website.com</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <input type="checkbox" name="" id="chk1">
+        <div class="logo"><h1>WATCHO.COM</h1></div>
+        <div class="search-box">
+            <form>
+                <input type="text" name="search" id="srch" placeholder="Search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="design.html">Design</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <a href="https://www.linkedin.com/in/nanda-kishore-jana-a23b11343/"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="https://github.com/nand32541works"><i class="fa fa-github"></i></a>  
+            </li>
+        </ul>
+    </header>
+    <div class="content">
+        <div class="text">
+            <p class="text1">
+                <strong>WELCOME TO Watcho.com</strong> 
+            </p>
+            <p class="text2">
+                Your one-stop destination for amazing content and designs. Explore our site to learn more about what we 
+                offer, including our design and product services.
+            </p>
+            <p class="text3">
+                At Watcho.com, we pride ourselves on offering a diverse range of innovative solutions tailored 
+                to meet your unique needs. Whether you're looking for creative designs, high-quality content, 
+                or exceptional services, our platform is designed to exceed your expectations. 
+            </p>
+            <p class="text4">
+                Explore our site to learn more about the various services we provide, including cutting-edge 
+                design strategies and meticulously crafted products that resonate with your audience. 
+            </p>
+            <p class="text4">
+                We invite you to discover the difference that our innovative designs and exceptional services 
+                can make for your business or personal project. 
+            </p>
+            <p class="text4">
+                Join the countless satisfied customers who have trusted Watcho.com to deliver exceptional 
+                results time and time again.
+            </p>
+            <br>
+            <center>
+                <div>
+                    <button type="button" id="signInBtn">Sign In</button>
+                    <button type="button" class="btn-2" id="signUpBtn">Sign Up</button>
+                    <button type="button" id="aboutBtn">About Us</button>
+                </div>
+                <script>
+                    document.getElementById("signInBtn").onclick = function () {
+                        window.location.href = "signin.html";
+                    };
+                    document.getElementById("signUpBtn").onclick = function () {
+                        window.location.href = "signup.html";
+                    };
+                    document.getElementById("aboutBtn").onclick = function () {
+                        window.location.href = "about.html";
+                    };
+                </script>
+            </center>
+        </div>
+        <img src="pyyh.png" alt="Example Image" width="350px">
+    </div>
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.linkedin.com/in/nanda-kishore-jana-a23b11343/"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/nand32541works"><i class="fa fa-github"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="design.html">Design</a>
+                <a href="product.html">Product</a>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <p>Created by @nand32541works</p>
+    </footer>
+</body>
+</html>
